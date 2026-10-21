@@ -1,0 +1,16 @@
+* {margin:0; padding: 0}
+html, body {
+  background: transparent;
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  position: relative;
+}
+
+canvas {
+  image-rendering: auto;
+  position: absolute;
+  bottom: 0;
+}
