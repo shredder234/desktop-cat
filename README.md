@@ -4,6 +4,12 @@ A small pixel-art black cat that lives on your desktop. It sits on top of your o
 
 Built with [Tauri v2](https://tauri.app/), TypeScript and Rust. Windows only for now.
 
+## Download
+
+Get the installer from the [latest release](https://github.com/shredder234/desktop-cat/releases/latest): download `Desktop Cat_<version>_x64-setup.exe` and run it. Requires Windows 10 or 11.
+
+The installer isn't code-signed, so Windows SmartScreen may show "Windows protected your PC". Choose **More info → Run anyway**.
+
 ## What it does
 
 | You... | The cat... |
@@ -50,8 +56,6 @@ npm run tauri build    # build a release installer
 ```
 
 The installer is written to `src-tauri/target/release/bundle/nsis/`.
-
-The installer isn't code-signed, so Windows SmartScreen may show "Windows protected your PC" when someone runs a downloaded copy. Choose **More info → Run anyway**.
 
 ## Project structure
 
